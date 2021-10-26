@@ -42,6 +42,7 @@ class BoardGame {
                 this.turn = value_X;
             } else {
                 this.turn = value_O;
+                document.getElementById("cell-" + x + "-" + y).style.color = "blue"
             }
             document.getElementById("cell-" + x + "-" + y).style.cursor = "no-drop"
         } else {
