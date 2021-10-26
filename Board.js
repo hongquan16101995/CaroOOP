@@ -18,10 +18,10 @@ class BoardGame {
     drawBoard() {
         let gameBoardDiv = document.getElementById(this.elementId);
         gameBoardDiv.innerHTML = "";
-        for (let i = 0; i < this.width; i++) {
+        for (let i = 0; i < this.height; i++) {
             let row = [];
             this.cells.push(row);
-            for (let j = 0; j < this.height; j++) {
+            for (let j = 0; j < this.width; j++) {
                 let cell = new Cell(i, j);
                 row.push(cell);
                 gameBoardDiv.innerHTML += cell.drawCell();
