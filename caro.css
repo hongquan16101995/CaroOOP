@@ -1,0 +1,13 @@
+.cell {
+    border: solid 1px blue;
+    text-align: center;
+    font-size: 20pt;
+    cursor: pointer;
+    color: red;
+}
+
+#boardGame {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+}
